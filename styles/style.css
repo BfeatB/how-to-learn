@@ -92,7 +92,7 @@
 }
 
 .two-columns__brief {
-  min-width: 175px;
+  max-width: 175px;
   line-height: 1.2em;
   font-size: 18px;
   color: #2f80ed;
@@ -203,7 +203,7 @@
 .feynman {
   background-color: #f2f2f2;
   position: relative;
-  height: 890px;
+  min-height: 890px;
 }
 
 .feynman__img {
