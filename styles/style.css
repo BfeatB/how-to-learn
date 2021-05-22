@@ -24,7 +24,7 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -97,6 +97,7 @@
   font-size: 18px;
   color: #2f80ed;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -214,7 +215,7 @@
   width: 648px;
   margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding-top: 100px;
   line-height: 1.15em;
   font-size: 120px;
   font-weight: bold;
@@ -226,7 +227,7 @@
   line-height: 51px;
   font-size: 36px;
   text-align: center;
-  margin: 70px auto;
+  margin: 70px 0 0 0;
   position: relative;
   z-index: 1;
 }
