@@ -164,6 +164,7 @@
   justify-content: space-between;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .table_theme_dark {
@@ -247,20 +248,22 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-color: black;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -210px;
 }
 
 .footer {
-  background-color: black;
+  background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
   justify-content: center;
