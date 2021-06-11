@@ -10,10 +10,10 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <a class="logo logo_place_header" href="https://praktikum.yandex.ru/"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link" >Узнай →</a>
+        <a href="#" class="header__link" >Узнай &rarr;</a>
       </p>
       <div class="header__square-pic rotation"></div>
       <img src="images/header-image.png" class="header__main-illustration" alt="Опять двойка"/>
@@ -52,12 +52,12 @@
             <img src="images/cards-recall.png" class="cards__image" alt="Статуя">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить
-               разрозненные порции памяти</p>
+               разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
             <img src="images/cards-interliving.png" class="cards__image" alt="Интерливинг">
             <h3 class="cards__title">Интерливинг</h3>
-            <p class="cards__description">Изучайте несколько навыков одновременно, <br>они обогащают друг друга.</p>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
             <img src="images/cards-question.png" class="cards__image" alt="Вопросы">
@@ -77,22 +77,24 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
+        <ul class="video__iframes">
+            <li>
+              <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY"
+             title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write;
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </li>
+            <li>
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+             title="YouTube video player" allow="accelerometer; autoplay; clipboard-write;
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </li>
+          </ul>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
            <div class="two-columns__main-text">
              <p class="two-columns__paragraph">С детства Барбаре не давалась математика.
@@ -103,13 +105,13 @@
                 если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже,
                 чем у тех, кому всё ясно с первого взгляда.</p>
             </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href= "#" class="feynman__link">Подробнее →</a>
+        <a href= "#" class="feynman__link">Подробнее &rarr;</a>
         <img src="images/feynman.png" class="feynman__img" alt="Портрет Фейнмана"/>
       </section>
 
@@ -158,16 +160,16 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов
              студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается
              образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе,
-              карьере и жизни.</p>
+              карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__block-container">
             <img src="images/khan-book.jpg" alt="Весь мир-школа"
             class="khan__book-pic">
-            <a class="khan__buy-link" href="https://clck.ru/VRuif">Купить книгу →</a>
+            <a class="khan__buy-link" href="https://clck.ru/VRuif">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -235,16 +237,16 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
           <li class="resources__logo">
-            <a href="https://arzamas.academy/"><img src="./images/logo/resources-arzamas.svg" alt="Arzamas"></a>
+            <a href="https://arzamas.academy/"><img src="./images/logo/resources-arzamas.svg" alt="Arzamas" class="resources__logo"></a>
+          </li>
+          <li>
+            <a href="https://nplus1.ru/"><img src="./images/logo/resources-n1.svg" alt="N+1" class="resources__logo"></a>
           </li>
           <li class="resources__logo">
-            <a href="https://nplus1.ru/"><img src="./images/logo/resources-n1.svg" alt="N+1"></a>
+            <a href="#"><img src="./images/logo/resources-strelka.svg" alt="STRELKA" class="resources__logo"></a>
           </li>
           <li class="resources__logo">
-            <a href="#"><img src="./images/logo/resources-strelka.svg" alt="STRELKA"></a>
-          </li>
-          <li class="resources__logo">
-            <a href="#"><img src="./images/logo/resources-polka.svg" alt="ПОЛКА"></a>
+            <a href="#"><img src="./images/logo/resources-polka.svg" alt="ПОЛКА" class="resources__logo"></a>
           </li>
         </ul>
 
@@ -254,7 +256,7 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <a class="logo logo_place_footer" href="https://praktikum.yandex.ru/"></a>
           <p class="footer__author">&copy;2021 Валентина Карпова</p>
         </div>
         <nav class="footer__column footer__column_content_info">

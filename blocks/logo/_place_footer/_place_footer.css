@@ -3,3 +3,9 @@
   width: 183px;
   height: 35px;
 }
+
+.logo_place_footer:hover {
+  opacity: 0.7;
+  transition: opacity .3s ease;
+}
+

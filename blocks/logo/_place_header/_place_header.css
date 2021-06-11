@@ -6,3 +6,8 @@
   top: 30px;
   left: 64px;
 }
+
+.logo_place_header:hover {
+  opacity: 0.7;
+  transition: opacity .3s ease;
+}

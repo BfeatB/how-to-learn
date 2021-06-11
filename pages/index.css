@@ -57,31 +57,31 @@
 @import url(../blocks/techniques/techniques.css);
 
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/cards__description/cards__description.css);
-@import url(../blocks/cards/cards__image/cards__image.css);
-@import url(../blocks/cards/cards__item/cards__item.css);
-@import url(../blocks/cards/cards__title/cards__title.css);
+@import url(../blocks/cards/__description/__description.css);
+@import url(../blocks/cards/__image/__image.css);
+@import url(../blocks/cards/__item/__item.css);
+@import url(../blocks/cards/__title/__title.css);
 
 @import url(../blocks/video/video.css);
-@import url(../blocks/video/video__iframe/video__iframe.css);
-@import url(../blocks/video/video__iframes/video__iframes.css);
+@import url(../blocks/video/__iframes/__iframes.css);
+@import url(../blocks/video/__iframe/__iframe.css);
 
 @import url(../blocks/oakley/oakley.css);
 
 @import url(../blocks/khan/khan.css);
-@import url(../blocks/khan/khan__author/khan__author.css);
-@import url(../blocks/khan/khan__block-container/khan__block-container.css);
-@import url(../blocks/khan/khan__book-pic/khan__book-pic.css);
-@import url(../blocks/khan/khan__container/khan__container.css);
-@import url(../blocks/khan/khan__quote-author-subline/khan__quote-author-subline.css);
-@import url(../blocks/khan/khan__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/khan__quote/khan__quote.css);
-@import url(../blocks/khan/khan__title/khan__title.css);
-@import url(../blocks/khan/khan__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__author/__author.css);
+@import url(../blocks/khan/__block-container/__block-container.css);
+@import url(../blocks/khan/__book-pic/__book-pic.css);
+@import url(../blocks/khan/__buy-link/__buy-link.css);
+@import url(../blocks/khan/__container/__container.css);
+@import url(../blocks/khan/__quote-author-subline/__quote-author-subline.css);
+@import url(../blocks/khan/__quote-author/__quote-author.css);
+@import url(../blocks/khan/__quote/__quote.css);
+@import url(../blocks/khan/__title/khan__title.css);
 
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/resources__logo-zone/resources__logo-zone.css);
-@import url(../blocks/resources/resources__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-zone/__logo-zone.css);
+@import url(../blocks/resources/__logo/__logo.css);
 
 
 
